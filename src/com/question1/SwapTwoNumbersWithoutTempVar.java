@@ -1,23 +1,22 @@
 package com.question1;
 
-public class SwapTwoNumbersSolution1 {
+public class SwapTwoNumbersWithoutTempVar {
 
 	public static void main(String[] args) {
 
-		int a=10;
-		int b=20;
+		int a = 10;
+		int b = 20;
 		
 		System.out.println("Before Swapping: ");
 		System.out.println("a : "+a+ " and b: "+b);
-		
-		int temp;
-		temp=a;
-		a=b;
-		b=temp;
+	
+		a=a+b;
+		b=a-b;
+		a=a-b;
 		
 		System.out.println("After Swapping: ");
 		System.out.println("a : "+a+ " and b: "+b);
-		
+	
 	}
 
 }
