@@ -1,4 +1,4 @@
-package com.question6;
+package com.logicbuilding;
 
 public class LengthOfLastWordInString {
 

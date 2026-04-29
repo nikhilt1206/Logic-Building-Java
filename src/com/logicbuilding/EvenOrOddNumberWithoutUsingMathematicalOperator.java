@@ -1,4 +1,4 @@
-package com.question3;
+package com.logicbuilding;
 
 public class EvenOrOddNumberWithoutUsingMathematicalOperator {
 

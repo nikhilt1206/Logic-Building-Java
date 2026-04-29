@@ -1,4 +1,4 @@
-package com.question1;
+package com.logicbuilding;
 
 public class SwapTwoNumbersUsingBitwiseManipulation {
 

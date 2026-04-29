@@ -1,4 +1,4 @@
-package com.question2;
+package com.logicbuilding;
 
 public class ReverseAnInteger {
 

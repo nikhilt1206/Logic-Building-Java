@@ -1,4 +1,4 @@
-package com.question7;
+package com.logicbuilding;
 
 public class FindEvenWordsOfString {
 
