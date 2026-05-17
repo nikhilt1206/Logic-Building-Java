@@ -1,6 +1,6 @@
 package com.logicbuilding;
 
-public class CheckPalindromeUsingStringClass {
+public class CheckPalindromeUsingStringManipulation {
 
 	public static void main(String[] args) {
 
@@ -14,10 +14,10 @@ public class CheckPalindromeUsingStringClass {
 		
 		//Compare 2 Strings
 		if(originalNumberInString.equals(reverseString)) {
-			System.out.println("Palindrome");
+			System.out.println("Palindrome String");
 		}
 		else {
-			System.out.println("Not Palindrime");
+			System.out.println("Not a Palindrome String");
 		}
 
 	}
