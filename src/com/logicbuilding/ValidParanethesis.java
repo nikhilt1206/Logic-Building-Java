@@ -1,3 +1,4 @@
+
 package com.logicbuilding;
 
 import java.util.Stack;
@@ -10,25 +11,19 @@ public class ValidParanethesis {
 		System.out.println(checkValidParanthesis(input));
 	}
 	private static boolean checkValidParanthesis(String input) {
-    
 		char inputArray[] = input.toCharArray();
 		Stack<Character> stack = new Stack<Character>();
-		
-		for(char currentChar:inputArray) {
-			if(currentChar=='(') {
+		for (char currentChar : inputArray) {
+			if (currentChar == '(' || currentChar == '{' || currentChar == '[')
 				stack.push(currentChar);
-			}
 			else {
-				if(currentChar==')') {
-					if(stack.isEmpty()) {
-						return false;
-					}
-					else {
-						char topChar = stack.pop();
-						if(topChar!='(') {
-							return false;
-						}
-					}
+				if (stack.isEmpty())
+					return false;
+				char top = stack.pop();
+				if ((currentChar == ')' && top != '(') ||
+						(currentChar == '}' && top != '{') ||
+						(currentChar == ']' && top != '[')) {
+					return false;
 				}
 			}
 		}
