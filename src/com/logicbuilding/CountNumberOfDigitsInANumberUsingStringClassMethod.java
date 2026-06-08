@@ -7,7 +7,5 @@ public class CountNumberOfDigitsInANumberUsingStringClassMethod {
 		int number=12345;
 		String s = Integer.toString(number);
 		System.out.println("Number of digits : "+s.length());
-
 	}
-
 }
