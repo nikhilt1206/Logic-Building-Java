@@ -5,7 +5,7 @@ public class NameShortner {
 	public static void main(String[] args) {
 
 		String fullName = "Vidya Bhushan Tiwari";
-		String nameParts[] = fullName.trim().split(" ");
+		String nameParts[] = fullName.trim().split("\\s+");
 		if (nameParts.length < 2) {
 			System.out.println(fullName);
 		} 
