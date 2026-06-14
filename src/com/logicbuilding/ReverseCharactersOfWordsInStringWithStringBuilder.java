@@ -1,6 +1,6 @@
 package com.logicbuilding;
 
-public class ReverseCharactersOfWordsInStringWIthStringBuilder {
+public class ReverseCharactersOfWordsInStringWithStringBuilder {
 
 	public static void main(String[] args) {
 
