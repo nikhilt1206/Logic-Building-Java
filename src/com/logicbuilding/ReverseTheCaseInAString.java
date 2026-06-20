@@ -1,6 +1,6 @@
 package com.logicbuilding;
 
-public class ReverseTheCaesInAString {
+public class ReverseTheCaseInAString {
 
 	public static void main(String[] args) {
 
