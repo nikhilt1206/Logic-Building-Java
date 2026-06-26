@@ -27,9 +27,11 @@ public class FindSecondLargestElementFromStringUsingSet {
 			}
 		}
 		System.out.println(dataSet);
+		if(dataSet.size() < 2){
+		    System.out.println("Second largest element not found.");
+		    return;
+		}
 		dataSet.pollLast();
 		System.out.println("Second Largest Element : "+ dataSet.last());
-		
 	}
-
 }
