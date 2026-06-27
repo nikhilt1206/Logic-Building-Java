@@ -25,10 +25,14 @@ public class FindSecondLargestNumberFromString {
 					second = first;
 					first = num;
 				}
-				if(num>second && num<first) {
+				else if(num>second && num<first) {
 					second = num;
 				}
 			}
+		}
+		if(second == Integer.MIN_VALUE) {
+		    System.out.println("Second largest element not found.");
+		    return;
 		}
 		System.out.println("Second Largest: "+second);
 	}
