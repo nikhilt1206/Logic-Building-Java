@@ -23,5 +23,4 @@ public class CountFrequencyOfWordsInAString {
 			System.out.println(data.getKey()+"->"+data.getValue());
 		}	
 	}
-
 }
