@@ -17,10 +17,9 @@ public class PrintUniqueCharactersFromString {
 		StringBuilder sb = new StringBuilder();
 		
 		for(char c : input.toCharArray()) {
-			set.add(c);
-		}
-		for(char c : set) {
-			sb.append(c);
+			if(set.add(c)) {
+				sb.append(c);
+			}
 		}
 		System.out.println(sb);
 	}
