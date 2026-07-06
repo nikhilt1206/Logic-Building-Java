@@ -24,5 +24,4 @@ public class PrintUniqueCharactersFromString {
 		}
 		System.out.println(sb);
 	}
-
 }
