@@ -28,5 +28,4 @@ public class FindMaxQuantity {
 		}	
 		System.out.println(result+" "+maxQuantity);
 	}
-
 }
