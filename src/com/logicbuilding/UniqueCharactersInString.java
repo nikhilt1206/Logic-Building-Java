@@ -14,15 +14,21 @@ public class UniqueCharactersInString {
 			return;
 		}
 		
-		LinkedHashMap<Character,Integer> hmap = new LinkedHashMap<Character,Integer>();
+		input = input.toLowerCase();
+		LinkedHashMap<Character,Integer> hmap = new LinkedHashMap<>();
 		for(char c : input.toCharArray()) {
 			hmap.put(c, hmap.getOrDefault(c, 0)+1);
 		}
 
+		boolean foundUnique = false;
 		for(Map.Entry<Character, Integer> data : hmap.entrySet()) {
 			if(data.getValue()==1) {
 				System.out.print(data.getKey()+" ");
+				foundUnique=true;
 			}
+		}
+		if(!foundUnique) {
+		    System.out.println("No unique characters found.");
 		}
 	}
 }
