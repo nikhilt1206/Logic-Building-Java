@@ -13,7 +13,6 @@ public class Rod_Cutting_Problem {
 			System.out.println("Invalid input!!");
 			return;
 		}
-		
 		Arrays.sort(rods);
 		
 		List<Integer> result = new ArrayList<>();
